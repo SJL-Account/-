@@ -295,4 +295,16 @@ class minHeap:
         #再切割
         
         #直到待排数组为一个元素
-        
+heap=minHeap(5)
+heap.insert(3)
+heap.insert(4)
+heap.insert(1)
+heap.insert(3)
+heap.insert(2)
+heap.heap_list
+
+def top_k(heap):
+    for i in range(1000000):
+        if i > heap.top():
+            heap.heap_list[0]=i
+            heap._download()  
